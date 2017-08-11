@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26430.12
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "converter", "converter\converter.vcxproj", "{B6B89457-A2EC-4B9C-B27A-9912AEED8F70}"
+	ProjectSection(ProjectDependencies) = postProject
+		{10C69689-44BE-4E8E-9E07-AE7F57062397} = {10C69689-44BE-4E8E-9E07-AE7F57062397}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "zlib", "zlib\zlib.vcxproj", "{10C69689-44BE-4E8E-9E07-AE7F57062397}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B6B89457-A2EC-4B9C-B27A-9912AEED8F70}.Debug|Win32.ActiveCfg = Debug|Win32
+		{B6B89457-A2EC-4B9C-B27A-9912AEED8F70}.Debug|Win32.Build.0 = Debug|Win32
+		{B6B89457-A2EC-4B9C-B27A-9912AEED8F70}.Release|Win32.ActiveCfg = Release|Win32
+		{B6B89457-A2EC-4B9C-B27A-9912AEED8F70}.Release|Win32.Build.0 = Release|Win32
+		{10C69689-44BE-4E8E-9E07-AE7F57062397}.Debug|Win32.ActiveCfg = Debug|Win32
+		{10C69689-44BE-4E8E-9E07-AE7F57062397}.Debug|Win32.Build.0 = Debug|Win32
+		{10C69689-44BE-4E8E-9E07-AE7F57062397}.Release|Win32.ActiveCfg = Release|Win32
+		{10C69689-44BE-4E8E-9E07-AE7F57062397}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
